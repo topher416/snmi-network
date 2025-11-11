@@ -13,8 +13,15 @@ function initializeGraph(data) {
 
     // Add nodes
     data.nodes.forEach(node => {
+        // Create label with organization if available
+        let displayLabel = node.label;
+        if (node.attributes && node.attributes.organization) {
+            displayLabel = `${node.label}\n${node.attributes.organization}`;
+        }
+
         graph.addNode(node.id, {
-            label: node.label,
+            label: displayLabel,
+            originalName: node.label,  // Store original name for info panel
             nodeType: node.type,  // Renamed from 'type' to avoid Sigma v3 renderer conflict
             size: node.size || 5,
             color: node.color || '#4CAF50',
@@ -59,11 +66,13 @@ function initializeGraph(data) {
     const container = document.getElementById('sigma-container');
     renderer = new Sigma(graph, container, {
         renderEdgeLabels: false,
+        renderLabels: true,  // Always render labels
         defaultNodeColor: '#4CAF50',
         defaultEdgeColor: '#CCCCCC',
-        labelSize: 12,
+        labelSize: 10,
         labelWeight: 'normal',
-        labelColor: { color: '#000' }
+        labelColor: { color: '#333' },
+        labelRenderedSizeThreshold: 0  // Show labels at all zoom levels
     });
 
     // Hide loading message
@@ -233,7 +242,7 @@ function updateFilters() {
                              !attributes.status ||
                              activeFilters.statuses.has(attributes.status);
         const matchesSearch = !activeFilters.search ||
-                             attributes.label.toLowerCase().includes(activeFilters.search) ||
+                             (attributes.originalName && attributes.originalName.toLowerCase().includes(activeFilters.search)) ||
                              (attributes.organization && attributes.organization.toLowerCase().includes(activeFilters.search));
 
         const shouldShow = matchesType && matchesStatus && matchesSearch;
@@ -268,7 +277,7 @@ function selectNode(nodeId) {
     const infoDiv = document.getElementById('node-info');
     infoDiv.classList.remove('hidden');
 
-    let html = `<h3>${attributes.label}</h3>`;
+    let html = `<h3>${attributes.originalName || attributes.label}</h3>`;
     html += `<p><strong>Type:</strong> ${attributes.nodeType || 'N/A'}</p>`;
 
     if (attributes.organization) html += `<p><strong>Organization:</strong> ${attributes.organization}</p>`;
