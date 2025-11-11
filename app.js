@@ -6,10 +6,7 @@ let activeFilters = {
     search: ''
 };
 
-// Load data from embedded variable
-const data = GRAPH_DATA;
-initializeGraph(data);
-
+// Data will be loaded from index.html via fetch()
 function initializeGraph(data) {
     // Create a new graph
     graph = new graphology.Graph();
