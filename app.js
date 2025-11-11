@@ -11,12 +11,12 @@ function initializeGraph(data) {
     // Create a new graph
     graph = new graphology.Graph();
 
-    // Add nodes (organizations)
+    // Add nodes (both organizations and individuals)
     data.nodes.forEach(node => {
         graph.addNode(node.id, {
-            label: node.label,  // Organization name
-            nodeType: node.attributes.category,  // Healthcare, Government, etc.
-            size: node.size || 10,
+            label: node.label,
+            nodeType: node.attributes.nodeType,  // 'Organization' or 'Person'
+            size: node.size || 5,
             color: node.color || '#4CAF50',
             x: Math.random() * 1000,
             y: Math.random() * 1000,
@@ -92,6 +92,8 @@ function setupTypeFilters() {
 
     const container = document.getElementById('type-filters');
     const typeColors = {
+        'Organization': '#666666',
+        'Person': '#999999',
         'Healthcare': '#2196F3',
         'Government': '#9C27B0',
         'Nonprofit': '#FF9800',
@@ -235,12 +237,10 @@ function updateFilters() {
         const matchesStatus = activeFilters.statuses.size === 0 ||
                              !attributes.status ||
                              activeFilters.statuses.has(attributes.status);
-        // Search in organization name or people names
+        // Search in node label and organization (for people)
         const matchesSearch = !activeFilters.search ||
                              attributes.label.toLowerCase().includes(activeFilters.search) ||
-                             (attributes.people && attributes.people.some(p =>
-                                 p.name.toLowerCase().includes(activeFilters.search)
-                             ));
+                             (attributes.organization && attributes.organization.toLowerCase().includes(activeFilters.search));
 
         const shouldShow = matchesType && matchesStatus && matchesSearch;
 
@@ -270,42 +270,43 @@ function selectNode(nodeId) {
     // Highlight selected node
     graph.setNodeAttribute(nodeId, 'color', '#FF5722');
 
-    // Show node info (organization details)
+    // Show node info
     const infoDiv = document.getElementById('node-info');
     infoDiv.classList.remove('hidden');
 
-    let html = `<h3>${attributes.label}</h3>`;
-    html += `<p><strong>Category:</strong> ${attributes.nodeType || 'N/A'}</p>`;
-    html += `<p><strong>People:</strong> ${attributes.people_count || 0}</p>`;
+    let html = '';
 
-    // Show connections to other organizations
-    const neighbors = graph.neighbors(nodeId);
-    html += `<p><strong>Connected Orgs:</strong> ${neighbors.length}</p>`;
+    // Check if this is an organization or a person
+    if (attributes.isOrganization) {
+        // Organization node
+        html = `<h3>${attributes.label}</h3>`;
+        html += `<p><strong>Type:</strong> Organization</p>`;
+        html += `<p><strong>Category:</strong> ${attributes.category || 'N/A'}</p>`;
+        html += `<p><strong>People:</strong> ${attributes.people_count || 0}</p>`;
 
-    // Show list of people in this organization
-    if (attributes.people && attributes.people.length > 0) {
-        html += `<h4 style="margin-top: 15px; margin-bottom: 8px; font-size: 14px;">People:</h4>`;
-        html += '<div style="max-height: 200px; overflow-y: auto;">';
+        const neighbors = graph.neighbors(nodeId);
+        html += `<p><strong>Connections:</strong> ${neighbors.length}</p>`;
 
-        // Sort people by status priority (Warm > Hot > Cold)
-        const statusOrder = { 'Warm': 0, 'Hot': 1, 'Cold': 2, '': 3 };
-        const sortedPeople = [...attributes.people].sort((a, b) => {
-            const aOrder = statusOrder[a.status] ?? 3;
-            const bOrder = statusOrder[b.status] ?? 3;
-            return aOrder - bOrder;
-        });
+    } else if (attributes.isPerson) {
+        // Person node
+        html = `<h3>${attributes.label}</h3>`;
+        html += `<p><strong>Type:</strong> Person</p>`;
 
-        sortedPeople.forEach(person => {
-            const statusBadge = person.status ?
-                `<span style="background: ${person.status === 'Hot' ? '#ff5722' : person.status === 'Warm' ? '#ff9800' : '#2196f3'}; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; margin-left: 5px;">${person.status}</span>` : '';
+        if (attributes.organization) html += `<p><strong>Organization:</strong> ${attributes.organization}</p>`;
+        if (attributes.title) html += `<p><strong>Title:</strong> ${attributes.title}</p>`;
+        if (attributes.status) {
+            const statusColor = attributes.status === 'Hot' ? '#ff5722' : attributes.status === 'Warm' ? '#ff9800' : '#2196f3';
+            html += `<p><strong>Status:</strong> <span style="background: ${statusColor}; color: white; padding: 2px 8px; border-radius: 3px; font-size: 11px;">${attributes.status}</span></p>`;
+        }
+        if (attributes.priority) html += `<p><strong>Priority:</strong> ${attributes.priority}</p>`;
+        if (attributes.sentiment) html += `<p><strong>Sentiment:</strong> ${attributes.sentiment}</p>`;
+        if (attributes.stance) html += `<p><strong>Stance:</strong> ${attributes.stance}</p>`;
+        if (attributes.relationship_type) html += `<p><strong>Relationship:</strong> ${attributes.relationship_type}</p>`;
+        if (attributes.steward) html += `<p><strong>Steward:</strong> ${attributes.steward}</p>`;
+        if (attributes.mentions && attributes.mentions !== '0') html += `<p><strong>Mentions:</strong> ${attributes.mentions}</p>`;
 
-            html += `<div style="padding: 6px; margin-bottom: 4px; background: #f8f9fa; border-radius: 4px; font-size: 12px;">`;
-            html += `<strong>${person.name}</strong>${statusBadge}`;
-            if (person.title) html += `<br><span style="color: #666;">${person.title}</span>`;
-            html += `</div>`;
-        });
-
-        html += '</div>';
+        const neighbors = graph.neighbors(nodeId);
+        html += `<p><strong>Connections:</strong> ${neighbors.length}</p>`;
     }
 
     infoDiv.innerHTML = html;
