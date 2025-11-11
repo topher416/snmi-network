@@ -1,5 +1,6 @@
 let renderer, graph, layout;
 let selectedNode = null;
+let expandedOrg = null;  // Track which organization is currently expanded
 let activeFilters = {
     types: new Set(),
     statuses: new Set(),
@@ -12,7 +13,10 @@ function initializeGraph(data) {
     graph = new graphology.Graph();
 
     // Add nodes (both organizations and individuals)
+    // First pass: add all nodes
     data.nodes.forEach(node => {
+        const isPerson = node.attributes.isPerson;
+
         graph.addNode(node.id, {
             label: node.label,
             nodeType: node.attributes.nodeType,  // 'Organization' or 'Person'
@@ -22,20 +26,27 @@ function initializeGraph(data) {
             y: Math.random() * 1000,
             ...node.attributes,
             originalColor: node.color || '#4CAF50',
-            hidden: false
+            hidden: isPerson  // Hide person nodes by default, show only orgs
         });
     });
 
     // Add edges
     data.edges.forEach(edge => {
         try {
+            // Hide edges connected to hidden person nodes
+            const sourceAttrs = graph.getNodeAttributes(edge.source);
+            const targetAttrs = graph.getNodeAttributes(edge.target);
+            const shouldHide = (sourceAttrs.isPerson && sourceAttrs.hidden) ||
+                             (targetAttrs.isPerson && targetAttrs.hidden);
+
             graph.addEdge(edge.source, edge.target, {
                 size: edge.size || 1,
                 color: edge.color || '#CCCCCC',
                 // Note: 'type' attribute removed - Sigma v3 uses it for renderer selection
                 // Edge type defaults to 'line'. If you need edge categorization, use 'edgeType'
                 label: edge.label || '',
-                hidden: false
+                hidden: shouldHide,
+                ...edge.attributes
             });
         } catch (e) {
             console.warn(`Could not add edge ${edge.id}:`, e);
@@ -258,6 +269,75 @@ function updateFilters() {
     updateStats();
 }
 
+function expandOrganization(orgId) {
+    // Collapse previous organization if any
+    if (expandedOrg && expandedOrg !== orgId) {
+        collapseOrganization(expandedOrg);
+    }
+
+    // Get organization position
+    const orgPos = renderer.getNodeDisplayData(orgId);
+    if (!orgPos) return;
+
+    // Find all people connected to this organization
+    const members = [];
+    graph.forEachEdge(orgId, (edge, attributes, source, target) => {
+        const personId = source === orgId ? target : source;
+        const personAttrs = graph.getNodeAttributes(personId);
+        if (personAttrs.isPerson) {
+            members.push(personId);
+        }
+    });
+
+    // Position members in a vertical column to the right of the org
+    const spacing = 30;
+    const startY = orgPos.y - (members.length * spacing) / 2;
+
+    members.forEach((personId, index) => {
+        // Show the person node
+        graph.setNodeAttribute(personId, 'hidden', false);
+
+        // Position in column
+        graph.setNodeAttribute(personId, 'x', orgPos.x + 100);
+        graph.setNodeAttribute(personId, 'y', startY + (index * spacing));
+
+        // Show edges connected to this person
+        graph.forEachEdge(personId, (edge) => {
+            graph.setEdgeAttribute(edge, 'hidden', false);
+        });
+    });
+
+    expandedOrg = orgId;
+    renderer.refresh();
+}
+
+function collapseOrganization(orgId) {
+    if (!orgId) return;
+
+    // Hide all people connected to this organization
+    graph.forEachEdge(orgId, (edge, attributes, source, target) => {
+        const personId = source === orgId ? target : source;
+        const personAttrs = graph.getNodeAttributes(personId);
+        if (personAttrs.isPerson) {
+            graph.setNodeAttribute(personId, 'hidden', true);
+
+            // Hide edges connected to this person (except membership edge to org)
+            graph.forEachEdge(personId, (edgeId, edgeAttrs, edgeSource, edgeTarget) => {
+                // Keep membership edges visible, hide person-to-person edges
+                if (edgeAttrs.edgeType === 'relationship') {
+                    graph.setEdgeAttribute(edgeId, 'hidden', true);
+                }
+            });
+        }
+    });
+
+    if (expandedOrg === orgId) {
+        expandedOrg = null;
+    }
+
+    renderer.refresh();
+}
+
 function selectNode(nodeId) {
     // Deselect previous node
     if (selectedNode) {
@@ -269,6 +349,11 @@ function selectNode(nodeId) {
 
     // Highlight selected node
     graph.setNodeAttribute(nodeId, 'color', '#FF5722');
+
+    // If clicking an organization, expand its members
+    if (attributes.isOrganization) {
+        expandOrganization(nodeId);
+    }
 
     // Show node info
     const infoDiv = document.getElementById('node-info');
@@ -319,8 +404,14 @@ function deselectNode() {
         graph.setNodeAttribute(selectedNode, 'color', graph.getNodeAttribute(selectedNode, 'originalColor'));
         selectedNode = null;
         document.getElementById('node-info').classList.add('hidden');
-        renderer.refresh();
     }
+
+    // Collapse any expanded organization
+    if (expandedOrg) {
+        collapseOrganization(expandedOrg);
+    }
+
+    renderer.refresh();
 }
 
 function updateStats() {
