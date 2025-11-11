@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.Python
+
+# Node
+node_modules/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Old HTML versions
+sigma_visualization_standalone.html
+SNMI_Network_FAST.html
+sigma_fast.html
+sigma_upload*.html
+STARTER_TEMPLATE.html
+sigma_visualization.html
+snmi_network_interactive.html
+snmi_standalone.html
