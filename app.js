@@ -32,7 +32,8 @@ function initializeGraph(data) {
             graph.addEdge(edge.source, edge.target, {
                 size: edge.size || 1,
                 color: edge.color || '#CCCCCC',
-                type: edge.type || 'line',
+                // Note: 'type' attribute removed - Sigma v3 uses it for renderer selection
+                // Edge type defaults to 'line'. If you need edge categorization, use 'edgeType'
                 label: edge.label || '',
                 hidden: false
             });
