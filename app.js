@@ -15,7 +15,7 @@ function initializeGraph(data) {
     data.nodes.forEach(node => {
         graph.addNode(node.id, {
             label: node.label,
-            type: node.type,
+            nodeType: node.type,  // Renamed from 'type' to avoid Sigma v3 renderer conflict
             size: node.size || 5,
             color: node.color || '#4CAF50',
             x: Math.random() * 1000,
@@ -84,7 +84,7 @@ function initializeGraph(data) {
 function setupTypeFilters() {
     const types = new Set();
     graph.forEachNode((node, attributes) => {
-        types.add(attributes.type);
+        types.add(attributes.nodeType);
     });
 
     const container = document.getElementById('type-filters');
@@ -189,7 +189,7 @@ function setupEventListeners() {
         activeFilters.search = '';
 
         graph.forEachNode((node, attributes) => {
-            activeFilters.types.add(attributes.type);
+            activeFilters.types.add(attributes.nodeType);
             if (attributes.status) activeFilters.statuses.add(attributes.status);
         });
 
@@ -227,7 +227,7 @@ function updateFilters() {
 
     // Apply filters
     graph.forEachNode((node, attributes) => {
-        const matchesType = activeFilters.types.has(attributes.type);
+        const matchesType = activeFilters.types.has(attributes.nodeType);
         const matchesStatus = activeFilters.statuses.size === 0 ||
                              !attributes.status ||
                              activeFilters.statuses.has(attributes.status);
@@ -268,7 +268,7 @@ function selectNode(nodeId) {
     infoDiv.classList.remove('hidden');
 
     let html = `<h3>${attributes.label}</h3>`;
-    html += `<p><strong>Type:</strong> ${attributes.type || 'N/A'}</p>`;
+    html += `<p><strong>Type:</strong> ${attributes.nodeType || 'N/A'}</p>`;
 
     if (attributes.organization) html += `<p><strong>Organization:</strong> ${attributes.organization}</p>`;
     if (attributes.title) html += `<p><strong>Title:</strong> ${attributes.title}</p>`;
