@@ -1,0 +1,6384 @@
+{
+  "nodes": [
+    {
+      "id": "org_0",
+      "label": "4 Sight Health",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n222",
+            "name": "Dave Johnson",
+            "title": "Healthcare Consultant",
+            "status": "Hot Lead",
+            "priority": "",
+            "sentiment": "Positive",
+            "stance": "Advisor",
+            "relationship_type": "Strategic Consultant",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_1",
+      "label": "7Wire Ventures",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n73",
+            "name": "Lee Shapiro",
+            "title": "",
+            "status": "",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_2",
+      "label": "AbbVie Foundation",
+      "type": "Organization",
+      "size": 7,
+      "color": "#FF9800",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Nonprofit",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n80",
+            "name": "Kat Rafferty",
+            "title": "Philanthropy",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Customer"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_3",
+      "label": "Access Community Health Network",
+      "type": "Organization",
+      "size": 11,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 3,
+        "people": [
+          {
+            "id": "n57",
+            "name": "Mahomed Ouedraogo",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "FQHC Leadership",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n108",
+            "name": "Donna Thompson",
+            "title": "Former CEO",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Neutral",
+            "stance": "Historical Context",
+            "relationship_type": "Former FQHC Leader",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n194",
+            "name": "Mahomed (Mo) Ouedraogo, B.S., C.P.A., CHCIO",
+            "title": "CEO",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Potential Champion",
+            "relationship_type": "FQHC - Critical",
+            "steward": "",
+            "mentions": "4",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Cold",
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 3",
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_4",
+      "label": "Advocate Health",
+      "type": "Organization",
+      "size": 13,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 4,
+        "people": [
+          {
+            "id": "n105",
+            "name": "Dia Nichols",
+            "title": "President - Advocate Healthcare Illinois",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Critical Stakeholder",
+            "relationship_type": "Health System - Regional Lead",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n116",
+            "name": "Eugene Woods",
+            "title": "CEO",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Neutral",
+            "stance": "NOT Target",
+            "relationship_type": "Health System - National",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n200",
+            "name": "Tequilla Lopez",
+            "title": "Hospital",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n228",
+            "name": "Meghan Woltman",
+            "title": "SNMI Advisory Group",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Cold",
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 3",
+          "Tier 1"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_5",
+      "label": "Aetna Better Health of Illinois",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n140",
+            "name": "Melanie Fernando",
+            "title": "Medicaid Plan President - Illinois",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Stakeholder",
+            "relationship_type": "MCO - State Plan",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_6",
+      "label": "Alivio Medical Center",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n60",
+            "name": "Esther Corpuz",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "FQHC Leadership",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_7",
+      "label": "America's Essential Hospitals",
+      "type": "Organization",
+      "size": 9,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n27",
+            "name": "Bruce Siegal",
+            "title": "CEO (new)",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Trade Association - Hospitals",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n122",
+            "name": "Bruce Siegel",
+            "title": "Outgoing CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Neutral",
+            "stance": "Historical Context",
+            "relationship_type": "National Safety Net Association",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_8",
+      "label": "Austin Coming Together / Aspire",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n189",
+            "name": "Darnell Shields",
+            "title": "Executive Director",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Positive",
+            "stance": "Community Partner",
+            "relationship_type": "Neighborhood Network",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_9",
+      "label": "BMO",
+      "type": "Organization",
+      "size": 9,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n106",
+            "name": "John Rich",
+            "title": "Director - BMO Center for Health Equity",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Positive",
+            "stance": "Supporter",
+            "relationship_type": "Corporate - Healthcare",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n216",
+            "name": "Eric Smith",
+            "title": "Executive - Violence Reduction Fund Co-Chair",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Positive",
+            "stance": "Corporate Leader",
+            "relationship_type": "Business Engagement",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_10",
+      "label": "BOMA / Chicago",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n124",
+            "name": "Farzin Parang",
+            "title": "CEO",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Corporate Leader",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_11",
+      "label": "Ben Lazare Consulting",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n151",
+            "name": "Ben Lazare",
+            "title": "Other",
+            "status": "Active",
+            "priority": "Tier 1",
+            "sentiment": "Neutral",
+            "stance": "Neutral (was Potential Blocker)",
+            "relationship_type": "Gatekeeper - Neutralized",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_12",
+      "label": "Big Shoulders Fund",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n115",
+            "name": "Josh Hill",
+            "title": "Board Executive Committee",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Connector",
+            "relationship_type": "Philanthropy",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_13",
+      "label": "Blue Cross Blue Shield of Illinois",
+      "type": "Organization",
+      "size": 11,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 3,
+        "people": [
+          {
+            "id": "n157",
+            "name": "Ryan Snell",
+            "title": "President - Commercial",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Critical Connector",
+            "relationship_type": "MCO - Commercial",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n166",
+            "name": "Maurice Smith",
+            "title": "CEO",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Critical Stakeholder",
+            "relationship_type": "MCO - Corporate Decision Maker",
+            "steward": "",
+            "mentions": "7",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n180",
+            "name": "Stephen Harris",
+            "title": "President - Government Programs",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Neutral-Negative",
+            "stance": "Potential Funder",
+            "relationship_type": "MCO - Corporate",
+            "steward": "",
+            "mentions": "6",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_14",
+      "label": "Casa Central",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n117",
+            "name": "Martin Castro",
+            "title": "Community",
+            "status": "Cold",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_15",
+      "label": "Centene",
+      "type": "Organization",
+      "size": 9,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n164",
+            "name": "Sarah London",
+            "title": "CEO",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Critical Stakeholder",
+            "relationship_type": "MCO - National Decision Maker",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n210",
+            "name": "Kim Vazola",
+            "title": "Senior Executive",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Critical Stakeholder",
+            "relationship_type": "MCO - National Executive",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_16",
+      "label": "Centene/Meridian",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n167",
+            "name": "Crystal Gary",
+            "title": "CEO - Illinois",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Neutral",
+            "stance": "Stakeholder",
+            "relationship_type": "MCO - State Plan",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_17",
+      "label": "Center for Healthcare Innovation",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n48",
+            "name": "Joseph Gaspero",
+            "title": "Former Executive Director",
+            "status": "Active",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "",
+            "relationship_type": "Think Tank / Researcher",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_18",
+      "label": "Chicago Bulls Charities",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n95",
+            "name": "Adrienne Curry",
+            "title": "Philanthropy",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Customer"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_19",
+      "label": "Chicago Community Trust",
+      "type": "Organization",
+      "size": 9,
+      "color": "#FF9800",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Nonprofit",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n172",
+            "name": "Andrea Saenz",
+            "title": "President/CEO",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Strategic Contact",
+            "relationship_type": "Philanthropy/County Advisory",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n202",
+            "name": "Rebecca Scheinfeld",
+            "title": "Senior Leadership",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Positive",
+            "stance": "Connector",
+            "relationship_type": "Philanthropy",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_20",
+      "label": "Chicago Department of Public Health (CDPH)",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n219",
+            "name": "Olusimbo (Simbo) Ige",
+            "title": "Commissioner",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "City Health Department",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_21",
+      "label": "Chicago Family Health Center",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n235",
+            "name": "Sherry Pace",
+            "title": "SNMI Advisory Group",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "FQHC Representative",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_22",
+      "label": "Chicago Federation of Labor",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n186",
+            "name": "Bob Reiter",
+            "title": "President",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Critical Stakeholder",
+            "relationship_type": "Labor Leader",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_23",
+      "label": "Chicago Foundation for Women",
+      "type": "Organization",
+      "size": 7,
+      "color": "#FF9800",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Nonprofit",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n88",
+            "name": "Whitney Wade",
+            "title": "NPO",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_24",
+      "label": "Chicago Mahogany Tours",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n213",
+            "name": "Shermann \"Dilla\" Thomas",
+            "title": "Community Tour Leader",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Positive",
+            "stance": "Community Partner",
+            "relationship_type": "Community Engagement",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_25",
+      "label": "Chicago Sun Times",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n214",
+            "name": "Sandra Guy",
+            "title": "Reporter",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Positive",
+            "stance": "Ally",
+            "relationship_type": "Media",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_26",
+      "label": "Chicago Tribune",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n15",
+            "name": "Lisa Schencker",
+            "title": "Reporter",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Media - Journalism",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_27",
+      "label": "Chicago Urban League",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n82",
+            "name": "Karen Freeman-Wilson",
+            "title": "NPO",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_28",
+      "label": "Chicagoland Chamber of Commerce",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n47",
+            "name": "Jack Lavin",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Business Community",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_29",
+      "label": "City of Chicago",
+      "type": "Organization",
+      "size": 11,
+      "color": "#9C27B0",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Government",
+        "people_count": 3,
+        "people": [
+          {
+            "id": "n54",
+            "name": "Carla Kupe",
+            "title": "Chief Equity Officer",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - City",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n61",
+            "name": "Dr. Olusimbo (Simbo) Ige",
+            "title": "CDPH",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - City",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n143",
+            "name": "Carla Kupe",
+            "title": "Chief Equity Officer",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "City Government",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_30",
+      "label": "Civic Committee/Commercial Club",
+      "type": "Organization",
+      "size": 15,
+      "color": "#FF9800",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Nonprofit",
+        "people_count": 5,
+        "people": [
+          {
+            "id": "n98",
+            "name": "Derek Douglas",
+            "title": "Leadership",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Strategic Contact",
+            "relationship_type": "Business Leadership",
+            "steward": "",
+            "mentions": "4",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n144",
+            "name": "Dea Meyer",
+            "title": "Executive Vice President",
+            "status": "Customer",
+            "priority": "Tier 1",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n153",
+            "name": "Erika Poethig",
+            "title": "Corp.",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n163",
+            "name": "Kirsten Powers",
+            "title": "Corp.",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n175",
+            "name": "Veenu Verma",
+            "title": "Corp.",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead",
+          "Customer"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_31",
+      "label": "Civic Federation",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n94",
+            "name": "Joe Ferguson",
+            "title": "President/Executive Director",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Potential Ally",
+            "relationship_type": "Budget/Policy",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_32",
+      "label": "CommonSpirit Health",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n97",
+            "name": "Wright Lassiter",
+            "title": "CEO",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Neutral",
+            "stance": "NOT Priority",
+            "relationship_type": "Health System - Corporate",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_33",
+      "label": "Cook County Economic Advisors",
+      "type": "Organization",
+      "size": 9,
+      "color": "#9C27B0",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Government",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n1",
+            "name": "Frank Beal",
+            "title": "Member",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Advisory Body - County",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n6",
+            "name": "Wendell Dallas",
+            "title": "Member",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Advisory Body - County",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_34",
+      "label": "Cook County Government",
+      "type": "Organization",
+      "size": 9,
+      "color": "#9C27B0",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Government",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n125",
+            "name": "Matt Richards",
+            "title": "Deputy Chief of Staff for Health - Office of President",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Connector",
+            "relationship_type": "Strategic Access",
+            "steward": "",
+            "mentions": "5",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n205",
+            "name": "Toni Preckwinkle",
+            "title": "County President",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Critical Stakeholder",
+            "relationship_type": "Political - County Executive",
+            "steward": "",
+            "mentions": "4",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_35",
+      "label": "Cook County Health",
+      "type": "Organization",
+      "size": 19,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 7,
+        "people": [
+          {
+            "id": "n20",
+            "name": "Eric Mikaitis",
+            "title": "CEO",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Neutral",
+            "stance": "Stakeholder",
+            "relationship_type": "County Health Leadership",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n81",
+            "name": "Alex Normington",
+            "title": "Unknown Role",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Unknown",
+            "relationship_type": "County Health",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n92",
+            "name": "Leticia (Letty) Close",
+            "title": "Government",
+            "status": "Hot Lead",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n128",
+            "name": "Leticia Close",
+            "title": "Chief of Staff and Government Affairs",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "County Health - Political",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n149",
+            "name": "Andrea Gibson",
+            "title": "Chief Strategy Officer",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Neutral",
+            "stance": "Stakeholder",
+            "relationship_type": "County Health Leadership",
+            "steward": "",
+            "mentions": "4",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n155",
+            "name": "Eric Makaitis",
+            "title": "CEO",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Neutral",
+            "stance": "Stakeholder",
+            "relationship_type": "Partnership - County System",
+            "steward": "",
+            "mentions": "6",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n156",
+            "name": "Kathy Chan",
+            "title": "Director of Policy",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "County Health - Policy",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_36",
+      "label": "Corporate Coalition",
+      "type": "Organization",
+      "size": 7,
+      "color": "#FF9800",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Nonprofit",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n158",
+            "name": "Brian Fabes",
+            "title": "Corp.",
+            "status": "Cold",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_37",
+      "label": "Council of Economic Advisors (CEA) - Cook County",
+      "type": "Organization",
+      "size": 7,
+      "color": "#9C27B0",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Government",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n176",
+            "name": "Graham Grady",
+            "title": "Member",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Advisory Body - County",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_38",
+      "label": "CountyCare",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n44",
+            "name": "Aaron Galeener",
+            "title": "Leadership",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Managed Care Organization",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_39",
+      "label": "Crain's Chicago Business",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n86",
+            "name": "Jon Asplund",
+            "title": "Crain's Chicago Business",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Media",
+            "relationship_type": "Journalism",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_40",
+      "label": "Dion's Chicago Dream",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n113",
+            "name": "Dion Dawson",
+            "title": "Community Leader/Power Broker",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Critical Gatekeeper",
+            "relationship_type": "Community Power Broker",
+            "steward": "",
+            "mentions": "4",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_41",
+      "label": "Economic Club of Chicago",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n197",
+            "name": "David Snyder",
+            "title": "Executive Director/President",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Corporate/Business",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_42",
+      "label": "Endeavor Health",
+      "type": "Organization",
+      "size": 15,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 5,
+        "people": [
+          {
+            "id": "n89",
+            "name": "Jonathan Lind",
+            "title": "Health System",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n123",
+            "name": "Gerald (J.P.) Gallagher",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Positive",
+            "stance": "Supporter",
+            "relationship_type": "Academic Medical Center",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n208",
+            "name": "Kate Lawler",
+            "title": "Health System",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n212",
+            "name": "Kristen Murtos",
+            "title": "Health System",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n215",
+            "name": "Sean O'Grady",
+            "title": "Health System",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active",
+          "Customer"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_43",
+      "label": "Equal Hope",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n137",
+            "name": "Paris Thomas",
+            "title": "Community",
+            "status": "Cold",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_44",
+      "label": "Erie Family Health Centers",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n227",
+            "name": "Lee Francis",
+            "title": "CEO/Executive Director - Advisory Group",
+            "status": "Hot Lead",
+            "priority": "",
+            "sentiment": "Neutral",
+            "stance": "Advisory Group",
+            "relationship_type": "FQHC Representative",
+            "steward": "",
+            "mentions": "7",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_45",
+      "label": "Esperanza Health Centers",
+      "type": "Organization",
+      "size": 9,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n148",
+            "name": "Ryan Gadia",
+            "title": "Interim CEO",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "FQHC Leadership",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n187",
+            "name": "Maria Marquez",
+            "title": "Staff/Leadership",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "FQHC Staff",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_46",
+      "label": "Exec Club of Chicago",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n39",
+            "name": "Dori McWhorter",
+            "title": "CEO",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Ally",
+            "relationship_type": "Business Community",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_47",
+      "label": "Gainwell Technologies",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n230",
+            "name": "Rushil Desai",
+            "title": "SNMI Advisory Group",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_48",
+      "label": "Gateway Foundation",
+      "type": "Organization",
+      "size": 9,
+      "color": "#FF9800",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Nonprofit",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n127",
+            "name": "April Schweitzer",
+            "title": "SNMI Advisory Group",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n233",
+            "name": "April Schweitzer",
+            "title": "Policy/Advocacy Advisor",
+            "status": "Hot Lead",
+            "priority": "",
+            "sentiment": "Positive",
+            "stance": "Advisor",
+            "relationship_type": "Policy/Advocacy",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_49",
+      "label": "Good Day Chicago",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n25",
+            "name": "Sylvia Perez",
+            "title": "Reporter",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Media - Journalism",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_50",
+      "label": "GoozNews - Freelance",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n74",
+            "name": "Merill Goozner",
+            "title": "",
+            "status": "",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Potential Resource",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_51",
+      "label": "Governor's Office",
+      "type": "Organization",
+      "size": 15,
+      "color": "#9C27B0",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Government",
+        "people_count": 5,
+        "people": [
+          {
+            "id": "n136",
+            "name": "Emily Miller",
+            "title": "Head of Policy Department",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Neutral",
+            "stance": "Gatekeeper",
+            "relationship_type": "Key Decision Maker",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n169",
+            "name": "Grace Hou",
+            "title": "Deputy Governor, Health & Human Services",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Neutral-Positive",
+            "stance": "Supporter",
+            "relationship_type": "Advisory - Access Point",
+            "steward": "",
+            "mentions": "6",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n183",
+            "name": "Michael Sachs",
+            "title": "Senior Advisor to Governor",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Critical Stakeholder",
+            "relationship_type": "Political - Governor Access",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n184",
+            "name": "Charles Watkins",
+            "title": "Government",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n204",
+            "name": "Christopher Shallow",
+            "title": "Legislative Director",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Gatekeeper",
+            "relationship_type": "Legislative Strategy",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead",
+          "Customer"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_52",
+      "label": "Grant Healthcare Foundation",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n85",
+            "name": "Kate Grubbs O'Connor",
+            "title": "Philanthropy",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_53",
+      "label": "HFS (Illinois Healthcare & Family Services)",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n126",
+            "name": "Lizzy Whitehorn",
+            "title": "Government",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Customer"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_54",
+      "label": "Health & Medicine (Health & Medicine Policy Research Group)",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n40",
+            "name": "Margie Schaps",
+            "title": "Executive Director",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Think Tank / Researcher",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_55",
+      "label": "Health Justice Partners",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n152",
+            "name": "Rachel Reichliin",
+            "title": "NPO",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_56",
+      "label": "Hope Chicago",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n133",
+            "name": "C.J. (Constance Jones?)",
+            "title": "Staff/Leadership",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Community Organization",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_57",
+      "label": "Howard Brown Health",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n64",
+            "name": "Travis Gayles",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "FQHC Leadership",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_58",
+      "label": "Humana",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n209",
+            "name": "Samantha Olds Frey",
+            "title": "Illinois Medicaid President",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "MCO - State Plan",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_59",
+      "label": "Humboldt Park Health",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n138",
+            "name": "Jose Sanchez",
+            "title": "CEO",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Negative",
+            "stance": "Saboteur",
+            "relationship_type": "Opposition - Safety Net",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_60",
+      "label": "Hyatt",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n162",
+            "name": "Mark Koplomazian",
+            "title": "CEO",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Corporate Leader",
+            "relationship_type": "Business Engagement",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_61",
+      "label": "IAMHP",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n192",
+            "name": "Jill Hayden",
+            "title": "CEO",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "MCO Trade Association",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_62",
+      "label": "IMAN (Inner-City Muslim Action Network)",
+      "type": "Organization",
+      "size": 7,
+      "color": "#9C27B0",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Government",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n114",
+            "name": "Rami Nashashibi",
+            "title": "Executive Director",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Community Ally",
+            "relationship_type": "FQHC - Community Credibility",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_63",
+      "label": "IPHCA (IL Primary Health Care Association)",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n34",
+            "name": "Ollie Idowu",
+            "title": "Leadership",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "FQHC Trade Association",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_64",
+      "label": "Illinois Department of Healthcare and Family Services (HFS)",
+      "type": "Organization",
+      "size": 15,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 5,
+        "people": [
+          {
+            "id": "n75",
+            "name": "Dana Kelly",
+            "title": "Deputy Director or Senior Leadership",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Strategic Contact",
+            "relationship_type": "State - HFS Leadership",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n107",
+            "name": "Dana Kelly",
+            "title": "Government",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n110",
+            "name": "Laura Phelan",
+            "title": "Head of Medicaid Programs",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Technical Decision Maker",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n146",
+            "name": "Emma Waters Reardon",
+            "title": "Director of Policy",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Policy Lead",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n179",
+            "name": "Heather Eagleton",
+            "title": "Director of Legislative Affairs",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Government Liaison",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Hot Lead",
+          "Customer"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_65",
+      "label": "Illinois Department of Public Health",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n234",
+            "name": "Dan Fulwiler",
+            "title": "SNMI Advisory Group",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_66",
+      "label": "Illinois Health and Hospital Association (IHA)",
+      "type": "Organization",
+      "size": 15,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 5,
+        "people": [
+          {
+            "id": "n21",
+            "name": "Joe Holler",
+            "title": "Finance",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Trade Association - Hospitals",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n131",
+            "name": "A.J. Wilhelmi",
+            "title": "Senior Leadership",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Strategic Ally",
+            "relationship_type": "Trade Association - Hospitals",
+            "steward": "",
+            "mentions": "5",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n154",
+            "name": "David Gross",
+            "title": "Health System",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n161",
+            "name": "Jordan Powell",
+            "title": "Health System",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n170",
+            "name": "Tim Nuding",
+            "title": "Health System",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Hot Lead",
+          "Customer"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_67",
+      "label": "Illinois Policy Institute",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n52",
+            "name": "Matt Paprocki",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Higher Priority",
+            "relationship_type": "Think Tank / Researcher",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_68",
+      "label": "Illinois Public Health Institute (IPHI)",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n36",
+            "name": "Crystal Pirtle Tyler",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Think Tank / Researcher",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_69",
+      "label": "Illinois State (House of Representatives)",
+      "type": "Organization",
+      "size": 33,
+      "color": "#9C27B0",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Government",
+        "people_count": 14,
+        "people": [
+          {
+            "id": "n14",
+            "name": "Robyn Gabel",
+            "title": "Majority Leader",
+            "status": "Active",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly House",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n16",
+            "name": "Kam Buckner",
+            "title": "Speaker Pro Tempore",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly House",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n23",
+            "name": "Lisa Hernandez",
+            "title": "Deputy Majority Leader",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly House",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n30",
+            "name": "Natalie Manley",
+            "title": "Deputy Majority Leader",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly House",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n35",
+            "name": "Tonie McCombie",
+            "title": "Republican Leader",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly House",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n42",
+            "name": "C.D. Davidsmeyer",
+            "title": "Asst. Minority Leader",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly House",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n70",
+            "name": "Carol Ammons",
+            "title": "House of Representatives 103rd District",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Black Caucus",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n71",
+            "name": "Mary Beth Canty",
+            "title": "House of Representatives 54th District",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Black Caucus",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n72",
+            "name": "Lisa Davis",
+            "title": "House of Representatives 33rd District",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Black Caucus",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n103",
+            "name": "Lilian Jimenez",
+            "title": "Government",
+            "status": "Cold",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n142",
+            "name": "Becky Carroll",
+            "title": "Other",
+            "status": "Cold",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n173",
+            "name": "Marcus Evans",
+            "title": "State Representative - District 33",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Potential Detractor",
+            "relationship_type": "Risk Factor - Political",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n174",
+            "name": "Curtis Tarver",
+            "title": "State Representative - District 25",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Potential Detractor",
+            "relationship_type": "Risk Factor - Political",
+            "steward": "",
+            "mentions": "4",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n199",
+            "name": "Chris Welch",
+            "title": "Speaker",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Critical Stakeholder",
+            "relationship_type": "Legislative Leader",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold",
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 3",
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_70",
+      "label": "Illinois State (Senate House)",
+      "type": "Organization",
+      "size": 31,
+      "color": "#9C27B0",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Government",
+        "people_count": 13,
+        "people": [
+          {
+            "id": "n46",
+            "name": "Don Harmon",
+            "title": "Senate President",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly Senate",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n50",
+            "name": "Kimberly Lightford",
+            "title": "Majority Leader",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly Senate",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n58",
+            "name": "Bill Cunningham",
+            "title": "President Pro Tempore",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly Senate",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n63",
+            "name": "Laura Murphy",
+            "title": "Deputy Majority Leader",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly Senate",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n65",
+            "name": "Emil Jones III",
+            "title": "Deputy Majority Leader",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly Senate",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n66",
+            "name": "John Curran",
+            "title": "Minority Leader (2025)",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly Senate",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n67",
+            "name": "Omar Aquino",
+            "title": "Majority Caucus Chair",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Assembly Senate",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n68",
+            "name": "Doris Turner",
+            "title": "State Senator 48th District",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Black Caucus",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n69",
+            "name": "Mattie Hunter",
+            "title": "State Senator 3rd District",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Government - Black Caucus",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n102",
+            "name": "Lakesia Collins",
+            "title": "State Representative - Black Caucus Chair",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Critical Stakeholder",
+            "relationship_type": "Political - Must Brief",
+            "steward": "",
+            "mentions": "8",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n141",
+            "name": "Elgie Sims",
+            "title": "State Representative - Black Caucus",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Potential Ally",
+            "relationship_type": "Political Support",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n165",
+            "name": "Celina Villanueva",
+            "title": "Government",
+            "status": "Cold",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n171",
+            "name": "Don Harmon",
+            "title": "Government",
+            "status": "Cold",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold",
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_71",
+      "label": "Independent Lobbyist",
+      "type": "Organization",
+      "size": 9,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n129",
+            "name": "Ron Holmes",
+            "title": "Lobbyist - Black Caucus",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Potential Hire",
+            "relationship_type": "Strategic Service Provider",
+            "steward": "",
+            "mentions": "4",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n150",
+            "name": "Lisa Duarte",
+            "title": "Lobbyist - Legislative Strategy",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Potential Hire",
+            "relationship_type": "Strategic Service Provider",
+            "steward": "",
+            "mentions": "4",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_72",
+      "label": "Insight Hospital & Medical Center Chicago",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n38",
+            "name": "Atif Bawahab",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Safety Net Hospital",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_73",
+      "label": "Jackson Park Hospital",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n12",
+            "name": "Dr. William Dorsey",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Safety Net Hospital",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_74",
+      "label": "KFF Health News",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n19",
+            "name": "Judith Graham",
+            "title": "Reporter",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Media - Journalism",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_75",
+      "label": "Kaufman Hall",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n135",
+            "name": "Gordy Sofyanos",
+            "title": "Other",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Customer"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_76",
+      "label": "Kennedy Forum",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n31",
+            "name": "Nathaniel Counts",
+            "title": "CPO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Think Tank / Researcher",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_77",
+      "label": "Knight Impact Partners",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n109",
+            "name": "Sol Flores",
+            "title": "Strategic Advisor",
+            "status": "Customer",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Advisor",
+            "relationship_type": "Strategic Counsel",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Customer"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_78",
+      "label": "LaRabida Hospital",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n33",
+            "name": "Rolla Sweis",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Safety Net Hospital",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_79",
+      "label": "Lawndale Christian Health Center",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n229",
+            "name": "James Brooks",
+            "title": "SNMI Advisory Group",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_80",
+      "label": "Loretto Hospital",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n17",
+            "name": "Tesa Anewishki",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Safety Net Hospital",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_81",
+      "label": "Lurie Children's Hospital",
+      "type": "Organization",
+      "size": 9,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n76",
+            "name": "Thomas Shanley",
+            "title": "SNMI Advisory Group",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n201",
+            "name": "Mary Kate Daly",
+            "title": "Hospital",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active",
+          "Customer"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_82",
+      "label": "MATTER",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n237",
+            "name": "Steven Collens",
+            "title": "SNMI Advisory Group",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "Positive",
+            "stance": "Advisory Group",
+            "relationship_type": "Media Relationships",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_83",
+      "label": "Michael Reese Health Trust",
+      "type": "Organization",
+      "size": 11,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 3,
+        "people": [
+          {
+            "id": "n111",
+            "name": "Ameya Pawar",
+            "title": "Philanthropy",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n159",
+            "name": "Rashonda Johnson",
+            "title": "Philanthropy",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n195",
+            "name": "Gina Massuda Barnett",
+            "title": "Philanthropy",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_84",
+      "label": "Miles Square Health Center (UI Health)",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n18",
+            "name": "Karriem S. Watson",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "FQHC Leadership",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_85",
+      "label": "Molina Healthcare of Illinois",
+      "type": "Organization",
+      "size": 9,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n53",
+            "name": "Chris Claussen",
+            "title": "Illinois Leadership",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "New MCO",
+            "relationship_type": "Managed Care Organization",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n177",
+            "name": "Matt Wolf",
+            "title": "Former Illinois President",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Neutral",
+            "stance": "Historical Context",
+            "relationship_type": "Former MCO Leader",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Cold",
+          "Active"
+        ],
+        "priorities": [
+          "Tier 3",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_86",
+      "label": "Mona Martin (Lobbyist)",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n207",
+            "name": "Mona Martin",
+            "title": "Hospital",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Customer"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_87",
+      "label": "Northwestern Medicine",
+      "type": "Organization",
+      "size": 19,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 7,
+        "people": [
+          {
+            "id": "n32",
+            "name": "Tom McAfee",
+            "title": "CEO; Lake Forrest",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Neutral-Positive",
+            "stance": "Ally",
+            "relationship_type": "Academic Medical Center",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n37",
+            "name": "Scott Ziomek",
+            "title": "External Affairs",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Neutral-Positive",
+            "stance": "Ally",
+            "relationship_type": "Academic Medical Center",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n96",
+            "name": "Posh Charles",
+            "title": "COO or Senior Leadership",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Neutral-Positive",
+            "stance": "Potential Partner",
+            "relationship_type": "Decision Maker - AMC",
+            "steward": "",
+            "mentions": "7",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n182",
+            "name": "Melissa Simon",
+            "title": "Researcher",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Not Priority",
+            "relationship_type": "Research - Later",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n185",
+            "name": "Ann Hall",
+            "title": "AMC",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n191",
+            "name": "John Orsini",
+            "title": "AMC",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n198",
+            "name": "Thomas Mcafee",
+            "title": "AMC",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold",
+          "Hot Lead",
+          "Customer"
+        ],
+        "priorities": [
+          "Tier 3",
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_88",
+      "label": "Northwestern University",
+      "type": "Organization",
+      "size": 7,
+      "color": "#4CAF50",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Education",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n59",
+            "name": "Stacy Cooper Bailey",
+            "title": "Researcher",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Think Tank / Researcher",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_89",
+      "label": "OSF Healthcare",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n190",
+            "name": "Michelle Conger",
+            "title": "CEO",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Health System - Regional",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_90",
+      "label": "PayMedix",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n112",
+            "name": "Brian Marcella",
+            "title": "Executive",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Positive",
+            "stance": "Connector",
+            "relationship_type": "Economic Club",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_91",
+      "label": "Polk Bros. Foundation",
+      "type": "Organization",
+      "size": 7,
+      "color": "#FF9800",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Nonprofit",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n118",
+            "name": "Divya Mohan Little",
+            "title": "Philanthropy",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Customer"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_92",
+      "label": "Prestige Health",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n238",
+            "name": "Jim Kiamos",
+            "title": "Former CEO",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "Neutral",
+            "stance": "Historical Context",
+            "relationship_type": "Former MCO Leader",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_93",
+      "label": "PrimeCare Health",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n24",
+            "name": "Lynn Hopkins",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "FQHC Leadership",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_94",
+      "label": "Pritzker Family Foundation",
+      "type": "Organization",
+      "size": 9,
+      "color": "#FF9800",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Nonprofit",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n8",
+            "name": "Tameeka Christian",
+            "title": "",
+            "status": "",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n101",
+            "name": "Adolfo Hernandez",
+            "title": "Philanthropy",
+            "status": "Hot Lead",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_95",
+      "label": "Race Forward",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n87",
+            "name": "Candace Moore",
+            "title": "Former Chief Equity Officer",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Neutral",
+            "stance": "Historical Context",
+            "relationship_type": "Former City Official",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_96",
+      "label": "Rahul Kalsi Government Affairs",
+      "type": "Organization",
+      "size": 7,
+      "color": "#9C27B0",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Government",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n104",
+            "name": "Rahul Kalsi",
+            "title": "Political Consultant - Former County Staff",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Potential Hire",
+            "relationship_type": "Strategic Service - County",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_97",
+      "label": "Roseland Hospital",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n90",
+            "name": "Tim Egan",
+            "title": "Potential Opposition/Media Source",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Media",
+            "relationship_type": "Potential Source",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_98",
+      "label": "Rush University Medical Center",
+      "type": "Organization",
+      "size": 17,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 6,
+        "people": [
+          {
+            "id": "n41",
+            "name": "Paul Casey",
+            "title": "Chief Medical Officer",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Ally",
+            "relationship_type": "Academic Medical Center",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n45",
+            "name": "Patricia O'Neill",
+            "title": "Chief Financial Officer",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Ally",
+            "relationship_type": "Academic Medical Center",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n49",
+            "name": "Kate Jones",
+            "title": "Chief Strategy Officer",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Ally",
+            "relationship_type": "Academic Medical Center",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n99",
+            "name": "David Ansell MD",
+            "title": "Physician/Senior Leadership",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Negative",
+            "stance": "Blocker",
+            "relationship_type": "Access Barrier",
+            "steward": "",
+            "mentions": "4",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n120",
+            "name": "Doug O'Brien",
+            "title": "Director of Government Affairs",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Potential Ally",
+            "relationship_type": "Strategic Role - AMC Lobbyists",
+            "steward": "",
+            "mentions": "5",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n132",
+            "name": "Omar Lateef",
+            "title": "AMC",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_99",
+      "label": "Saint Anthony Hospital",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n22",
+            "name": "Dorval Carter",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Safety Net Hospital",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_100",
+      "label": "Schreiber Foundation",
+      "type": "Organization",
+      "size": 9,
+      "color": "#FF9800",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Nonprofit",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n231",
+            "name": "Molly Cullum",
+            "title": "Program Officer/Project Lead",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "Positive",
+            "stance": "Core Team",
+            "relationship_type": "Project Lead - Funder",
+            "steward": "",
+            "mentions": "22",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n236",
+            "name": "Whitney Smith",
+            "title": "CEO",
+            "status": "",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Customer"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_101",
+      "label": "Shriver Center on Poverty Law",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n188",
+            "name": "Stephanie Altman",
+            "title": "Other",
+            "status": "Cold",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_102",
+      "label": "Sinai Chicago",
+      "type": "Organization",
+      "size": 11,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 3,
+        "people": [
+          {
+            "id": "n9",
+            "name": "Paul Goldberg",
+            "title": "",
+            "status": "",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "Safety Net Hospital",
+            "steward": "David Smith",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n218",
+            "name": "Brian Dolan",
+            "title": "Board Chair",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Neutral",
+            "stance": "Stakeholder",
+            "relationship_type": "Governance",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n226",
+            "name": "Ngozi Ezike",
+            "title": "CEO",
+            "status": "Hot Lead",
+            "priority": "",
+            "sentiment": "Positive",
+            "stance": "Champion",
+            "relationship_type": "Core Team Member",
+            "steward": "",
+            "mentions": "14",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_103",
+      "label": "South Shore Hospital",
+      "type": "Organization",
+      "size": 9,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n55",
+            "name": "Leslie Rogers",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Safety Net Hospital",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          },
+          {
+            "id": "n119",
+            "name": "Leslie",
+            "title": "Hospital Administrator/CEO",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Critical Stakeholder",
+            "relationship_type": "Safety Net Hospital - Crisis",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_104",
+      "label": "St. Bernard Hospital",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n224",
+            "name": "Charles Holland",
+            "title": "CEO",
+            "status": "Hot Lead",
+            "priority": "",
+            "sentiment": "Positive",
+            "stance": "Champion",
+            "relationship_type": "Core Team Member",
+            "steward": "",
+            "mentions": "6",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_105",
+      "label": "State Consulting",
+      "type": "Organization",
+      "size": 7,
+      "color": "#9C27B0",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Government",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n7",
+            "name": "Stan",
+            "title": "Healthcare Policy Consultant",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Advisor",
+            "relationship_type": "Healthcare Policy",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_106",
+      "label": "Steans Family Foundation",
+      "type": "Organization",
+      "size": 7,
+      "color": "#FF9800",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Nonprofit",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n217",
+            "name": "Heather Steans",
+            "title": "Philanthropy",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Customer"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_107",
+      "label": "TCA Health",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n13",
+            "name": "Veronica Clarke",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "FQHC Leadership",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_108",
+      "label": "Tapestry",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n28",
+            "name": "Nicole Willis",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "FQHC Leadership",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_109",
+      "label": "The Firehouse Community Arts Center of Chicago",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n193",
+            "name": "Phil Jackson",
+            "title": "Executive Director",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Positive",
+            "stance": "Community Partner",
+            "relationship_type": "Community Tours",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_110",
+      "label": "Third Horizon",
+      "type": "Organization",
+      "size": 9,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n221",
+            "name": "David Smith",
+            "title": "Healthcare Consultant/Project Lead",
+            "status": "Hot Lead",
+            "priority": "",
+            "sentiment": "Positive",
+            "stance": "Core Team",
+            "relationship_type": "Project Lead - Subject Matter Expert",
+            "steward": "",
+            "mentions": "28",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n232",
+            "name": "Meghan Philipp",
+            "title": "Healthcare Consultant",
+            "status": "Hot Lead",
+            "priority": "",
+            "sentiment": "Positive",
+            "stance": "Team Member",
+            "relationship_type": "Project Staff",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_111",
+      "label": "Thorek Memorial Hospital",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n29",
+            "name": "Edward Budd",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Safety Net Hospital",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_112",
+      "label": "Thresholds",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n225",
+            "name": "Mark Ishaug",
+            "title": "SNMI Advisory Group",
+            "status": "Active",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_113",
+      "label": "Turing Strategies",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n139",
+            "name": "Lindsay Anderson",
+            "title": "Lobbyist",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Neutral",
+            "stance": "Potential Hire",
+            "relationship_type": "Service Provider",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_114",
+      "label": "Unaffiliated",
+      "type": "Organization",
+      "size": 19,
+      "color": "#999999",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Unaffiliated",
+        "people_count": 7,
+        "people": [
+          {
+            "id": "n0",
+            "name": "Ann Moeller",
+            "title": "Other",
+            "status": "Cold",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n2",
+            "name": "Joseph",
+            "title": "Researcher",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Not Priority",
+            "relationship_type": "Research - Later",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n3",
+            "name": "Karen",
+            "title": "External Contact",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Neutral",
+            "stance": "External",
+            "relationship_type": "Scheduling",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n4",
+            "name": "Matt",
+            "title": "Researcher",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Not Priority",
+            "relationship_type": "Research - Later",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n5",
+            "name": "Rhonda",
+            "title": "Lobbyist Network",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Referral Connection",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n178",
+            "name": "Nancy Wolhlhart",
+            "title": "Health System",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n220",
+            "name": "SNMI Advisory Group",
+            "title": "",
+            "status": "",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold",
+          "Customer"
+        ],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_115",
+      "label": "United Way of Metro Chicago",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n79",
+            "name": "Kimberly Gunther",
+            "title": "Director - Neighborhood Networks",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Potential Resource",
+            "relationship_type": "Community Model Expert",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_116",
+      "label": "UnitedHealthcare",
+      "type": "Organization",
+      "size": 7,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n100",
+            "name": "Dan Perrietti",
+            "title": "Former Market Lead",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Neutral",
+            "stance": "Historical Context",
+            "relationship_type": "MCO - Withdrew",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Healthcare"
+          }
+        ],
+        "statuses": [
+          "Cold"
+        ],
+        "priorities": [
+          "Tier 3"
+        ],
+        "person_types": [
+          "Healthcare"
+        ]
+      }
+    },
+    {
+      "id": "org_117",
+      "label": "University of Chicago",
+      "type": "Organization",
+      "size": 13,
+      "color": "#4CAF50",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Education",
+        "people_count": 4,
+        "people": [
+          {
+            "id": "n56",
+            "name": "Rebecca Neusteter",
+            "title": "Executive Director",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Think Tank / Researcher",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n62",
+            "name": "Monica Peek",
+            "title": "Researcher",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Think Tank / Researcher",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n83",
+            "name": "Ivan Samstein",
+            "title": "Political/Policy Consultant",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Advisor",
+            "relationship_type": "County Political Strategy",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n206",
+            "name": "Deborah Gorman Smith",
+            "title": "Dean - Crown School of Social Work / Community Engagement Lead",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Community Engagement",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active",
+          "Hot Lead"
+        ],
+        "priorities": [
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_118",
+      "label": "University of Chicago Medicine",
+      "type": "Organization",
+      "size": 27,
+      "color": "#2196F3",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Healthcare",
+        "people_count": 11,
+        "people": [
+          {
+            "id": "n26",
+            "name": "Amy Ross",
+            "title": "Chief Strategy Officer",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Stakeholder",
+            "relationship_type": "Academic Medical Center",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n77",
+            "name": "Benjamin Gibson",
+            "title": "Finance/Operations Leadership",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Stakeholder",
+            "relationship_type": "Decision Maker - Finance",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n78",
+            "name": "Catina Latham",
+            "title": "AMC",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n84",
+            "name": "Krista Curell",
+            "title": "AMC",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Stakeholder",
+            "relationship_type": "Decision Maker",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n91",
+            "name": "Amy Ross",
+            "title": "Leadership",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Positive",
+            "stance": "Stakeholder",
+            "relationship_type": "Decision Maker",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n93",
+            "name": "Christian Mitchell",
+            "title": "Former Community Engagement Lead - LG Candidate",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Political Transition",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n147",
+            "name": "Thomas Jackiewicz",
+            "title": "AMC",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n160",
+            "name": "Mark Anderson",
+            "title": "Senior Leadership",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Strategic Voice",
+            "relationship_type": "UC Leadership/Commercial Club",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n168",
+            "name": "Marshall Chin",
+            "title": "Researcher",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Not Priority",
+            "relationship_type": "Research - Later",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n203",
+            "name": "Catina Lathum",
+            "title": "Leadership",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Positive",
+            "stance": "Stakeholder",
+            "relationship_type": "Decision Maker",
+            "steward": "",
+            "mentions": "3",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n223",
+            "name": "Brenda Battle",
+            "title": "Senior Leadership/Community Health",
+            "status": "Hot Lead",
+            "priority": "",
+            "sentiment": "Positive",
+            "stance": "Champion",
+            "relationship_type": "Core Team Member - Lead",
+            "steward": "",
+            "mentions": "20",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold",
+          "Active",
+          "Hot Lead",
+          "Customer"
+        ],
+        "priorities": [
+          "Tier 3",
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_119",
+      "label": "University of Illinois Chicago (UIC)",
+      "type": "Organization",
+      "size": 17,
+      "color": "#4CAF50",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Education",
+        "people_count": 6,
+        "people": [
+          {
+            "id": "n11",
+            "name": "Robert Barisch",
+            "title": "Vice Chancellor",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Academic Medical Center",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n43",
+            "name": "Robin Mermelstein",
+            "title": "Director",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Think Tank / Researcher",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n121",
+            "name": "Robert Barish",
+            "title": "Vice Chancellor",
+            "status": "Hot Lead",
+            "priority": "Tier 1",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Academic Leadership",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n181",
+            "name": "Mark Rosenblatt",
+            "title": "CEO/President",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Academic Medical Center",
+            "steward": "",
+            "mentions": "4",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n196",
+            "name": "Dr. Marie Lynn Miranda",
+            "title": "President",
+            "status": "Cold",
+            "priority": "Tier 3",
+            "sentiment": "Unknown",
+            "stance": "Stakeholder",
+            "relationship_type": "Academic Leadership",
+            "steward": "",
+            "mentions": "1",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n211",
+            "name": "Kristiana Yao",
+            "title": "Hospital",
+            "status": "Customer",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold",
+          "Active",
+          "Hot Lead",
+          "Customer"
+        ],
+        "priorities": [
+          "Tier 3",
+          "Tier 1",
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_120",
+      "label": "WBEZ (Chicago Public Radio)",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n130",
+            "name": "Kristen Schorsch",
+            "title": "Reporter - Healthcare",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Media",
+            "relationship_type": "Journalism",
+            "steward": "",
+            "mentions": "2",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_121",
+      "label": "WTTW",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n10",
+            "name": "Heather Cherone",
+            "title": "Reporter",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "Ally",
+            "relationship_type": "Media - Journalism",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_122",
+      "label": "West Side United",
+      "type": "Organization",
+      "size": 7,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 1,
+        "people": [
+          {
+            "id": "n134",
+            "name": "Ayesha Jaco",
+            "title": "Community",
+            "status": "Active",
+            "priority": "Tier 1",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Active"
+        ],
+        "priorities": [
+          "Tier 1"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    },
+    {
+      "id": "org_123",
+      "label": "World Business Chicago",
+      "type": "Organization",
+      "size": 9,
+      "color": "#F44336",
+      "x": 0,
+      "y": 0,
+      "attributes": {
+        "category": "Private",
+        "people_count": 2,
+        "people": [
+          {
+            "id": "n51",
+            "name": "Phillip Clement",
+            "title": "CEO",
+            "status": "Active",
+            "priority": "Tier 2",
+            "sentiment": "Unknown",
+            "stance": "TBD",
+            "relationship_type": "Business Community",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          },
+          {
+            "id": "n145",
+            "name": "Philip B. Clement",
+            "title": "Corp.",
+            "status": "Cold",
+            "priority": "",
+            "sentiment": "",
+            "stance": "",
+            "relationship_type": "",
+            "steward": "",
+            "mentions": "0",
+            "nodeType": "Person"
+          }
+        ],
+        "statuses": [
+          "Cold",
+          "Active"
+        ],
+        "priorities": [
+          "Tier 2"
+        ],
+        "person_types": [
+          "Person"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_0",
+      "source": "org_110",
+      "target": "org_102",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n221",
+            "target": "n9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_1",
+      "source": "org_110",
+      "target": "org_11",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n221",
+            "target": "n151"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_2",
+      "source": "org_110",
+      "target": "org_4",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n221",
+            "target": "n116"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_3",
+      "source": "org_118",
+      "target": "org_25",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n223",
+            "target": "n214"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_4",
+      "source": "org_118",
+      "target": "org_87",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n223",
+            "target": "n182"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_5",
+      "source": "org_118",
+      "target": "org_35",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n223",
+            "target": "n149"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_6",
+      "source": "org_118",
+      "target": "org_21",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n223",
+            "target": "n235"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_7",
+      "source": "org_118",
+      "target": "org_117",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n223",
+            "target": "n83"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_8",
+      "source": "org_102",
+      "target": "org_7",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n226",
+            "target": "n122"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_9",
+      "source": "org_102",
+      "target": "org_119",
+      "size": 2.0,
+      "color": "#CCCCCC",
+      "label": "2 connection(s)",
+      "attributes": {
+        "connection_count": 2,
+        "people_pairs": [
+          {
+            "source": "n226",
+            "target": "n181"
+          },
+          {
+            "source": "n226",
+            "target": "n121"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_10",
+      "source": "org_48",
+      "target": "org_98",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n233",
+            "target": "n99"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_11",
+      "source": "org_48",
+      "target": "org_89",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n233",
+            "target": "n190"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_12",
+      "source": "org_100",
+      "target": "org_114",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n236",
+            "target": "n4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_13",
+      "source": "org_100",
+      "target": "org_35",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n231",
+            "target": "n156"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_14",
+      "source": "org_100",
+      "target": "org_54",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n231",
+            "target": "n40"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_15",
+      "source": "org_114",
+      "target": "org_39",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n4",
+            "target": "n86"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_16",
+      "source": "org_114",
+      "target": "org_13",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n4",
+            "target": "n180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e_17",
+      "source": "org_44",
+      "target": "org_61",
+      "size": 1.5,
+      "color": "#CCCCCC",
+      "label": "1 connection(s)",
+      "attributes": {
+        "connection_count": 1,
+        "people_pairs": [
+          {
+            "source": "n227",
+            "target": "n192"
+          }
+        ]
+      }
+    }
+  ]
+}

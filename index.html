@@ -54,14 +54,14 @@
             </div>
         </div>
         <div id="controls">
-            <h1>SNMI Network Map</h1>
+            <h1>SNMI Organization Network</h1>
             <div class="stats">
-                <div class="stat-item"><span class="stat-label">Total Nodes:</span><span class="stat-value" id="total-nodes">0</span></div>
-                <div class="stat-item"><span class="stat-label">Total Edges:</span><span class="stat-value" id="total-edges">0</span></div>
-                <div class="stat-item"><span class="stat-label">Visible Nodes:</span><span class="stat-value" id="visible-nodes">0</span></div>
+                <div class="stat-item"><span class="stat-label">Organizations:</span><span class="stat-value" id="total-nodes">0</span></div>
+                <div class="stat-item"><span class="stat-label">Connections:</span><span class="stat-value" id="total-edges">0</span></div>
+                <div class="stat-item"><span class="stat-label">Visible:</span><span class="stat-value" id="visible-nodes">0</span></div>
             </div>
-            <input type="text" id="search" class="search-box" placeholder="Search nodes...">
-            <h2>Node Types</h2>
+            <input type="text" id="search" class="search-box" placeholder="Search organizations or people...">
+            <h2>Organization Type</h2>
             <div class="filter-group" id="type-filters"></div>
             <h2>Status Filter</h2>
             <div class="filter-group" id="status-filters"></div>
@@ -71,8 +71,8 @@
         </div>
     </div>
     <script>
-        // Load data from external JSON file
-        fetch('./sigma_graph_data.json')
+        // Load data from external JSON file (organization-centric view)
+        fetch('./sigma_graph_data_orgs.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok: ' + response.statusText);
