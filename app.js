@@ -43,7 +43,7 @@ function initializeGraph(data) {
 
     // Apply ForceAtlas2 layout
     console.log('Applying layout...');
-    const settings = graphologyLayoutForceAtlas2;
+    const settings = graphologyLibrary.layoutForceAtlas2;
     settings.assign(graph, {
         iterations: 50,
         settings: {
@@ -199,7 +199,7 @@ function setupEventListeners() {
     // Reset layout
     document.getElementById('reset-layout').addEventListener('click', () => {
         console.log('Resetting layout...');
-        const settings = graphologyLayoutForceAtlas2;
+        const settings = graphologyLibrary.layoutForceAtlas2;
         settings.assign(graph, {
             iterations: 50,
             settings: {
