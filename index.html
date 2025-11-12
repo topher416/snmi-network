@@ -42,15 +42,15 @@
         .error { color: #d32f2f; }
         .hidden { display: none; }
 
-        /* Organization Card */
-        #org-card { position: absolute; top: 20px; right: 360px; width: 320px; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: none; max-height: calc(100vh - 40px); overflow: hidden; }
-        #org-card.visible { display: flex; flex-direction: column; }
-        #org-card-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px 8px 0 0; }
-        #org-card-header h2 { margin: 0; font-size: 18px; font-weight: 600; }
-        #org-card-header .subtitle { font-size: 13px; opacity: 0.9; margin-top: 5px; }
-        #org-card-close { position: absolute; top: 15px; right: 15px; background: rgba(255,255,255,0.2); border: none; color: white; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
-        #org-card-close:hover { background: rgba(255,255,255,0.3); }
-        #org-card-body { padding: 20px; overflow-y: auto; flex: 1; }
+        /* Organization Panel (Left Side) */
+        #org-panel { position: absolute; left: 0; top: 0; width: 320px; height: 100vh; background: #ffffff; border-right: 1px solid #e0e0e0; display: none; z-index: 100; overflow-y: auto; box-shadow: 2px 0 8px rgba(0,0,0,0.05); }
+        #org-panel.visible { display: block; }
+        #org-panel-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; position: sticky; top: 0; z-index: 101; }
+        #org-panel-header h2 { margin: 0; font-size: 18px; font-weight: 600; }
+        #org-panel-header .subtitle { font-size: 13px; opacity: 0.9; margin-top: 5px; }
+        #org-panel-close { position: absolute; top: 15px; right: 15px; background: rgba(255,255,255,0.2); border: none; color: white; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+        #org-panel-close:hover { background: rgba(255,255,255,0.3); }
+        #org-panel-body { padding: 20px; }
         .member-item { padding: 12px; margin-bottom: 8px; background: #f8f9fa; border-radius: 6px; border-left: 3px solid #667eea; transition: transform 0.2s, box-shadow 0.2s; }
         .member-item:hover { transform: translateX(3px); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         .member-name { font-weight: 600; color: #333; font-size: 14px; margin-bottom: 4px; }
@@ -70,15 +70,15 @@
                 <button class="zoom-btn" id="zoom-out" title="Zoom Out">−</button>
                 <button class="zoom-btn" id="zoom-reset" title="Reset View">⟲</button>
             </div>
-            <!-- Organization Card -->
-            <div id="org-card">
-                <div id="org-card-header">
-                    <button id="org-card-close">×</button>
-                    <h2 id="org-card-name">Organization Name</h2>
-                    <div class="subtitle" id="org-card-subtitle">0 members</div>
-                </div>
-                <div id="org-card-body"></div>
+        </div>
+        <!-- Organization Panel (Left Side) -->
+        <div id="org-panel">
+            <div id="org-panel-header">
+                <button id="org-panel-close">×</button>
+                <h2 id="org-panel-name">Organization Name</h2>
+                <div class="subtitle" id="org-panel-subtitle">0 members</div>
             </div>
+            <div id="org-panel-body"></div>
         </div>
         <div id="controls">
             <h1>SNMI Network Map</h1>

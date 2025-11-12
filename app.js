@@ -178,9 +178,9 @@ function setupEventListeners() {
         deselectNode();
     });
 
-    // Organization card close button
-    document.getElementById('org-card-close').addEventListener('click', () => {
-        hideOrganizationCard();
+    // Organization panel close button
+    document.getElementById('org-panel-close').addEventListener('click', () => {
+        hideOrganizationPanel();
     });
 
     // Zoom controls
@@ -273,16 +273,16 @@ function updateFilters() {
     updateStats();
 }
 
-function showOrganizationCard(orgId) {
+function showOrganizationPanel(orgId) {
     const attributes = graph.getNodeAttributes(orgId);
 
-    // Show the card
-    const card = document.getElementById('org-card');
-    card.classList.add('visible');
+    // Show the panel
+    const panel = document.getElementById('org-panel');
+    panel.classList.add('visible');
 
     // Set organization name and category
-    document.getElementById('org-card-name').textContent = attributes.label;
-    document.getElementById('org-card-subtitle').textContent =
+    document.getElementById('org-panel-name').textContent = attributes.label;
+    document.getElementById('org-panel-subtitle').textContent =
         `${attributes.category || 'Organization'} • ${attributes.people_count || 0} members`;
 
     // Get all people in this organization
@@ -304,7 +304,7 @@ function showOrganizationCard(orgId) {
     });
 
     // Populate member list
-    const body = document.getElementById('org-card-body');
+    const body = document.getElementById('org-panel-body');
     body.innerHTML = '';
 
     members.forEach(person => {
@@ -325,8 +325,8 @@ function showOrganizationCard(orgId) {
     });
 }
 
-function hideOrganizationCard() {
-    document.getElementById('org-card').classList.remove('visible');
+function hideOrganizationPanel() {
+    document.getElementById('org-panel').classList.remove('visible');
 }
 
 function selectNode(nodeId) {
@@ -341,9 +341,9 @@ function selectNode(nodeId) {
     // Highlight selected node
     graph.setNodeAttribute(nodeId, 'color', '#FF5722');
 
-    // If clicking an organization, show card
+    // If clicking an organization, show panel
     if (attributes.isOrganization) {
-        showOrganizationCard(nodeId);
+        showOrganizationPanel(nodeId);
     }
 
     // Show node info
@@ -397,8 +397,8 @@ function deselectNode() {
         document.getElementById('node-info').classList.add('hidden');
     }
 
-    // Hide organization card
-    hideOrganizationCard();
+    // Hide organization panel
+    hideOrganizationPanel();
 
     renderer.refresh();
 }
