@@ -1,6 +1,5 @@
 let renderer, graph, layout;
 let selectedNode = null;
-let expandedOrgs = new Set();  // Track which organizations are currently expanded
 let activeFilters = {
     types: new Set(),
     statuses: new Set(),
@@ -179,6 +178,11 @@ function setupEventListeners() {
         deselectNode();
     });
 
+    // Organization card close button
+    document.getElementById('org-card-close').addEventListener('click', () => {
+        hideOrganizationCard();
+    });
+
     // Zoom controls
     document.getElementById('zoom-in').addEventListener('click', () => {
         const camera = renderer.getCamera();
@@ -269,64 +273,60 @@ function updateFilters() {
     updateStats();
 }
 
-function expandOrganization(orgId) {
-    // Get organization's current graph position (not display position)
-    const orgAttrs = graph.getNodeAttributes(orgId);
-    const orgX = orgAttrs.x;
-    const orgY = orgAttrs.y;
+function showOrganizationCard(orgId) {
+    const attributes = graph.getNodeAttributes(orgId);
 
-    // Find all people connected to this organization
+    // Show the card
+    const card = document.getElementById('org-card');
+    card.classList.add('visible');
+
+    // Set organization name and category
+    document.getElementById('org-card-name').textContent = attributes.label;
+    document.getElementById('org-card-subtitle').textContent =
+        `${attributes.category || 'Organization'} • ${attributes.people_count || 0} members`;
+
+    // Get all people in this organization
     const members = [];
-    graph.forEachEdge(orgId, (edge, attributes, source, target) => {
+    graph.forEachEdge(orgId, (edge, edgeAttrs, source, target) => {
         const personId = source === orgId ? target : source;
         const personAttrs = graph.getNodeAttributes(personId);
         if (personAttrs.isPerson) {
-            members.push(personId);
+            members.push(personAttrs);
         }
     });
 
-    // Position members in a vertical column to the right of the org
-    const spacing = 30;
-    const startY = orgY - (members.length * spacing) / 2;
-    const offsetX = 150;  // Distance to the right of org
-
-    members.forEach((personId, index) => {
-        // Show the person node
-        graph.setNodeAttribute(personId, 'hidden', false);
-
-        // Position in column relative to THIS org's position
-        graph.setNodeAttribute(personId, 'x', orgX + offsetX);
-        graph.setNodeAttribute(personId, 'y', startY + (index * spacing));
-
-        // Show edges connected to this person
-        graph.forEachEdge(personId, (edge) => {
-            graph.setEdgeAttribute(edge, 'hidden', false);
-        });
+    // Sort by status (Hot > Warm > Cold)
+    const statusOrder = { 'Hot': 0, 'Warm': 1, 'Cold': 2, '': 3 };
+    members.sort((a, b) => {
+        const aOrder = statusOrder[a.status] || 3;
+        const bOrder = statusOrder[b.status] || 3;
+        return aOrder - bOrder;
     });
 
-    expandedOrgs.add(orgId);
-    renderer.refresh();
+    // Populate member list
+    const body = document.getElementById('org-card-body');
+    body.innerHTML = '';
+
+    members.forEach(person => {
+        const memberDiv = document.createElement('div');
+        memberDiv.className = 'member-item';
+
+        let html = `<div class="member-name">${person.label}</div>`;
+        if (person.title) {
+            html += `<div class="member-title">${person.title}</div>`;
+        }
+        if (person.status) {
+            const statusClass = `status-${person.status.toLowerCase()}`;
+            html += `<div class="member-status ${statusClass}">${person.status}</div>`;
+        }
+
+        memberDiv.innerHTML = html;
+        body.appendChild(memberDiv);
+    });
 }
 
-function collapseOrganization(orgId) {
-    if (!orgId) return;
-
-    // Hide all people connected to this organization
-    graph.forEachEdge(orgId, (edge, attributes, source, target) => {
-        const personId = source === orgId ? target : source;
-        const personAttrs = graph.getNodeAttributes(personId);
-        if (personAttrs.isPerson) {
-            graph.setNodeAttribute(personId, 'hidden', true);
-
-            // Hide edges connected to this person
-            graph.forEachEdge(personId, (edgeId) => {
-                graph.setEdgeAttribute(edgeId, 'hidden', true);
-            });
-        }
-    });
-
-    expandedOrgs.delete(orgId);
-    renderer.refresh();
+function hideOrganizationCard() {
+    document.getElementById('org-card').classList.remove('visible');
 }
 
 function selectNode(nodeId) {
@@ -341,13 +341,9 @@ function selectNode(nodeId) {
     // Highlight selected node
     graph.setNodeAttribute(nodeId, 'color', '#FF5722');
 
-    // If clicking an organization, toggle its members
+    // If clicking an organization, show card
     if (attributes.isOrganization) {
-        if (expandedOrgs.has(nodeId)) {
-            collapseOrganization(nodeId);
-        } else {
-            expandOrganization(nodeId);
-        }
+        showOrganizationCard(nodeId);
     }
 
     // Show node info
@@ -401,7 +397,9 @@ function deselectNode() {
         document.getElementById('node-info').classList.add('hidden');
     }
 
-    // Don't collapse expanded organizations - let them stay open
+    // Hide organization card
+    hideOrganizationCard();
+
     renderer.refresh();
 }
 

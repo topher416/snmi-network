@@ -41,6 +41,24 @@
         .loading { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 18px; color: #666; text-align: center; }
         .error { color: #d32f2f; }
         .hidden { display: none; }
+
+        /* Organization Card */
+        #org-card { position: absolute; top: 20px; right: 360px; width: 320px; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); display: none; max-height: calc(100vh - 40px); overflow: hidden; }
+        #org-card.visible { display: flex; flex-direction: column; }
+        #org-card-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px 8px 0 0; }
+        #org-card-header h2 { margin: 0; font-size: 18px; font-weight: 600; }
+        #org-card-header .subtitle { font-size: 13px; opacity: 0.9; margin-top: 5px; }
+        #org-card-close { position: absolute; top: 15px; right: 15px; background: rgba(255,255,255,0.2); border: none; color: white; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+        #org-card-close:hover { background: rgba(255,255,255,0.3); }
+        #org-card-body { padding: 20px; overflow-y: auto; flex: 1; }
+        .member-item { padding: 12px; margin-bottom: 8px; background: #f8f9fa; border-radius: 6px; border-left: 3px solid #667eea; transition: transform 0.2s, box-shadow 0.2s; }
+        .member-item:hover { transform: translateX(3px); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .member-name { font-weight: 600; color: #333; font-size: 14px; margin-bottom: 4px; }
+        .member-title { font-size: 12px; color: #666; }
+        .member-status { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 10px; font-weight: 600; margin-top: 4px; }
+        .status-hot { background: #ff5722; color: white; }
+        .status-warm { background: #ff9800; color: white; }
+        .status-cold { background: #64b5f6; color: white; }
     </style>
 </head>
 <body>
@@ -51,6 +69,15 @@
                 <button class="zoom-btn" id="zoom-in" title="Zoom In">+</button>
                 <button class="zoom-btn" id="zoom-out" title="Zoom Out">−</button>
                 <button class="zoom-btn" id="zoom-reset" title="Reset View">⟲</button>
+            </div>
+            <!-- Organization Card -->
+            <div id="org-card">
+                <div id="org-card-header">
+                    <button id="org-card-close">×</button>
+                    <h2 id="org-card-name">Organization Name</h2>
+                    <div class="subtitle" id="org-card-subtitle">0 members</div>
+                </div>
+                <div id="org-card-body"></div>
             </div>
         </div>
         <div id="controls">
